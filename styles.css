@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Josefin+Sans:ital,wght@1,300&family=Lobster&family=Roboto&display=swap');
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+
+body {
+    background-color: bisque;
+
+    /* font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lobster', cursive; */
+    
+    font: normal 16px 'Lobster', cursive;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(0, 195, 255);
+}
+
+/* a:visited {
+    color: cadetblue;
+} */
+
+.ava {
+    width: max-content;
+    height: max-content;
+    border-radius: 28px;
+    box-shadow: 8px 8px 17px 3px rgba(0, 0, 0);
+    margin-top: 20px;
+}
+.ava2 {
+    width: 150px;
+    border-radius: 12px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    
+    margin-left: 40px;
+}
+
+.text2 {
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: rgb(15, 16, 19);
+    margin: 0;
+    font-style: italic;
+    /* font-weight: bold; */
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 20px; */
+}
+
+/* block model */
+.container {
+   max-width: 90%;
+   margin: auto;
+   padding-top: 10px;
+}
+
+/* .haski {
+background: rgb(255, 187, 0);
+/* padding: 15px; */
+/* padding: 15px 40px; */
+/* padding: 15px 25px 25px 30px; */
+/* padding-top: 15px;
+padding-right: 25px;
+padding-bottom: 25px;
+padding-left: 30px;
+margin: 5px; */
+
+/* border: 5px solid red; */
+/* border-bottom-style: dotted; */
+/* border-top-width: 30px; */
+/* border-right-color: royalblue; */
+/* } */
+
+/* .box-model > div {
+    float: left;
+background: black;
+height: 200px;
+border: 4px solid violet;
+width: 25%;
+box-sizing: border-box;
+} */
+
+.bg-orange {
+    background: rgba(255, 68, 0, 0.692);
+}
+
+.bg-aqua {
+    background: rgba(0, 255, 255, 0.863);
+}
+
+.bg-plum {
+    background: rgba(221, 160, 221, 0.781);
+}
+
+.bg-teelblue {
+    background: rgba(70, 131, 180, 0.76);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 25px;
+}
+
+.list {
+    padding: 0 10px;
+    list-style: none;
+}
+
+.list li{
+    color: rgb(61, 55, 55);
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 5px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3){
+    color: rgb(95, 94, 94);
+}
+
+.table tr:nth-child(odd) {
+    background: indianred;
+}
+
+.table tr:nth-child(even) {
+    background: rgb(71, 206, 199);
+}
+
+.linklist {
+    list-style: none;
+    padding: 15px;
+}
+
+.linklist li {
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.a2:active {
+    color: whitesmoke;
+}
+
+.contact h2 {
+text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgb(48, 42, 48);
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background: black;
+    color: ivory;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8; 
+}
+
+/* position */
+
+/* .position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    /* bottom: 150px; */
+    /* left: 0px; */
+    /* width: 50px;
+    height: 50px;
+    background: lawngreen;
+} */
